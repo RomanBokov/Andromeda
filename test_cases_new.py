@@ -10,7 +10,7 @@ from test_cases import TestCases
 
 
 @allure.title('Тревога. Объект есть в БД. Нет карточки КК в статусе «Открыта»')
-@pytest.mark.parametrize('type_number',list(range(2,11)))
+@pytest.mark.parametrize('type_number',list(range(1,11)))
 def test_with_new(type_number):
     case = TestCases()
     case.case_all(type_number,2)

@@ -1,7 +1,6 @@
 """
 Модуль содержит класс LogReader.
 
-:author: Andrei Ursaki.
 """
 import json
 from datetime import datetime
